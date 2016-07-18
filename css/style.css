@@ -1,0 +1,114 @@
+.sifirlamaq{
+	margin: 0;
+	padding: 0;
+}
+.reklam{
+	height: 100px;
+	border:1px solid black;
+}
+.main div {
+	background:#00193C;
+	height: 40px;
+}
+.main div:nth-child(2) a{
+	color:white;
+	text-decoration: none;
+	font-size: 2em;
+	margin-left: 40px;
+}
+.main div:nth-child(3) ul li{
+	display: inline-block;
+	text-decoration: none;
+	
+}
+.main div ul li a{
+	text-decoration: underline;
+	color: white;
+	margin:5px 5px;
+}
+.main div ul li a i{
+	font-size:1.5em;
+	margin:5px;
+}
+.main div ul li input{
+	box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #ccc;
+    background: none transparent;
+    color: #fff;
+    font-size: 12px;
+}
+.main div ul li:nth-child(7) i{
+	position: relative;
+    cursor: pointer;
+    color: white
+}
+.menu div{
+	background:#222222;
+	height: 80px;
+}
+.menu div:nth-child(2) ul li {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 2px;
+
+}
+.menu div:nth-child(2) ul li a{
+	color: white;
+	text-decoration: none;
+}
+.menu div:nth-child(2) ul li a:hover {
+	background: #454545;
+	text-decoration: none;
+	padding: 5px;
+}
+.menuDown{
+	background:#EDEDED;
+	height: 30px
+}
+.menuDown div:nth-child(2) a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	margin-left:40px;
+}
+.menuDown div:nth-child(3) a{
+	text-decoration: none;
+	font-weight: bold;
+	color:red;
+	margin-left: 40px;
+}
+.slider div {
+	height: 250px;
+	border: 1px solid blue;
+}
+.xeberler div{
+	height: 350px;
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+.xeberler div:nth-child(2) div{
+	margin:30px 30px;
+	width: 230px;
+	height: 300px;
+	border:1px solid blue;
+}
+.xeberler div img {
+	width: 100%;
+	height: 200px;
+	text-decoration: none;
+}
+.xeberler div:nth-child(2) a {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	text-decoration: none;
+}
+.xeberler div:nth-child(2) p{
+	padding-top: 5px;
+	font-weight: bolder;
+}
